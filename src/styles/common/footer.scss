@@ -1,0 +1,107 @@
+.footer {
+  font-family: 'ProximaNova';
+  &__sub {
+    background: url(../images/png-jpg/bg-footer.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  &__end {
+    font-size: 12px;
+    min-height: 280px;
+    background: #f8fbfa;
+    background: #f7f7f7;
+    padding: 180px 0 0;
+  }
+  .copirate {
+    padding-top: 20px;
+  }
+  a {
+   color: #292929;
+  }
+}
+.map {
+  &__address {
+    position: relative;
+    margin-left: 30px;
+    &::before {
+      content: '';
+      width: 20px;
+      height: 15px;
+      display: inline-block;
+      margin-right: 5px;
+      position: absolute;
+      left: -30px;
+    }
+  }
+  &__tel {
+    position: relative;
+    margin-left: 30px;
+    &::before {
+      content: '';
+      width: 20px;
+      height: 15px;
+      display: inline-block;
+      margin-right: 5px;
+      position: absolute;
+      left: -30px;
+    }
+  }
+}
+.map {
+  position: absolute;
+  height: 330px;
+  width: 800px;
+  background: #fff;
+  top: 300px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  &__img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-box-flex: 7;
+    -ms-flex: 7;
+    flex: 7;
+  }
+  &__content {
+    padding: 30px 40px;
+    text-align: left;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+  }
+  &__header {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  &__tel {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #292929;
+    &::before {
+      background: url(../images/svg/call.svg) no-repeat;
+    }
+  }
+  &__address {
+    font-weight: 400;
+    font-size: 12px;
+    &::before {
+      background: url(../images/svg/maps-and-flags.svg) no-repeat;
+    }
+  }
+}

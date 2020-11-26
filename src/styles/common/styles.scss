@@ -1,0 +1,47 @@
+@import 'fonts';
+@import '../../../node_modules/swiper/swiper-bundle';
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.45;
+  font-family: 'ProximaNova', sans-serif;
+  overflow-x: hidden;
+  color: #292929;
+  font-weight: 200;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hydro-p,
+.sport-p,
+.swim-p,
+.contract-p,
+.bill-p,
+.team-p,
+.medal-p,
+.project-p,
+.budget-p {
+  display: none;
+}
+
+input {
+  height: 45px;
+  width: 220px;
+  padding: 0 15px;
+  color: #292929;
+  font-size: 12px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+input [type='sumbit'] {
+  background: #fbba2f;
+  font-size: 15px;
+  color: #292929;
+  font-weight: 600;
+  width: 170px;
+}

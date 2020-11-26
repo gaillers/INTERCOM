@@ -1,0 +1,190 @@
+/*Swiper-container*/
+.swiper-container,
+.swiper-container-s2,
+.swiper-container-s3,
+.swiper-container-sa3,
+.swiper-container-s4,
+.swiper-container-sa4,
+.swiper-container-s5 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+/*Swiper-slide*/
+.swiper-slide {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+/*Swiper-Button*/
+.swiper-button-next {
+  background: url(../images/png-jpg/arrow-rigth.png) no-repeat right;
+  position: absolute;
+  right: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  right: -40px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-prev {
+  background: url(../images/png-jpg/arrow-left.png) no-repeat left;
+  position: absolute;
+  left: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  left: -40px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-next-s2 {
+  background: url(../images/png-jpg/arrow-rigth.png) no-repeat right;
+  position: absolute;
+  right: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  right: 26px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-next-s3 {
+  background: url(../images/png-jpg/arrow-rigth.png) no-repeat right;
+  position: absolute;
+  right: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  right: 30px !important;
+  top: -200px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-prev-s2 {
+  background: url(../images/png-jpg/arrow-left.png) no-repeat left;
+  position: absolute;
+  left: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  left: -116px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-prev-s3 {
+  background: url(../images/png-jpg/arrow-left.png) no-repeat left;
+  position: absolute;
+  left: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  left: -102px !important;
+  top: -200px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-next-s4 {
+  background: url(../images/png-jpg/arrow-rigth.png) no-repeat right;
+  position: absolute;
+  right: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  right: 26px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-prev-s4 {
+  background: url(../images/png-jpg/arrow-left.png) no-repeat left;
+  position: absolute;
+  left: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  left: -116px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-next-s5 {
+  background: url(../images/png-jpg/arrow-rigth.png) no-repeat right;
+  position: absolute;
+  right: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  right: 26px !important;
+  &::after {
+    display: none;
+  }
+}
+.swiper-button-prev-s5 {
+  background: url(../images/png-jpg/arrow-left.png) no-repeat left;
+  position: absolute;
+  left: 0;
+  height: 33px;
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+  outline: none;
+  left: -116px !important;
+  &::after {
+    display: none;
+  }
+}
+
+.swiper-button-prev-s2.swiper-button-disabled,
+.swiper-button-prev-s3.swiper-button-disabled,
+.swiper-button-prev-s4.swiper-button-disabled,
+.swiper-button-prev-s5.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-next-s2.swiper-button-disabled,
+.swiper-button-next-s3.swiper-button-disabled,
+.swiper-button-next-s4.swiper-button-disabled,
+.swiper-button-prev-s5.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
