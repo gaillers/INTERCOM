@@ -53,7 +53,8 @@ var gallarySwiper = new Swiper('.swiper-container-s2', {
     768: {
       slidesPerColumn: 2,
       slidesPerView: 5,
-      spaceBetween: 15
+      spaceBetween: 15,
+      height: 230
     },
     1100: {
       slidesPerColumn: 2,
